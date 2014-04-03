@@ -1,4 +1,4 @@
-Spree::Core::Engine.add_routes do
+Spree::Core::Engine.routes.append do
   namespace :admin do
     resources :reviews, only: [:index, :destroy, :edit, :update] do
       member do
@@ -13,5 +13,6 @@ Spree::Core::Engine.add_routes do
     resources :reviews, only: [:index, :new, :create] do
     end
   end
-  post "/reviews/:review_id/feedback(.:format)", to: "feedback_reviews#create", as: :feedback_review
+  
+  # post "/reviews/:review_id/feedback(.:format)", to: "feedback_reviews#create", as: :feedback_review
 end

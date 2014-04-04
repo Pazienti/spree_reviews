@@ -3,25 +3,25 @@ it:
   activerecord:
     attributes:
       spree/review:
-        name: Your Name
-        title: Title
-        review: Content
-        rating: Rating
-        created_at: Date
+        name: Il tuo nome
+        title: Titolo
+        review: Scrivi la tua recensione...
+        rating: Voto
+        created_at: Data
         ip_address: IP
-        user: User
+        user: Utente
     models:
       spree/review:
-        one: one review
-        other: "%{count} reviews"
+        one: una recensione
+        other: "%{count} recensioni"
   spree:
     approve: Approve
     approved_reviews: Approved
-    average_customer_rating: Average rating
+    average_customer_rating: Voto medio
     back_reviews: Back to the reviews
     based_upon_review_count:
-      one: based upon one review
-      other: "based upon %{count} reviews"
+      one: basato su una recensione
+      other: "basato su %{count} recensioni"
     by: by
     editing_review_for_html: 'Editing review for %{link}'
     error_approve_review: Error approving review
@@ -32,7 +32,7 @@ it:
     from: from
     info_approve_review: Review approved
     leave_us_a_review_for: "Please leave us a review and a rating for our '%{name}'"
-    no_reviews_available: "No reviews have been written for this product."
+    no_reviews_available: "Nessuna recensione e' stata scritta per questo prodotto."
     out_of_5: "out of 5"
     rating: rating
     reviews: Reviews

@@ -15,31 +15,31 @@ it:
         one: una recensione
         other: "%{count} recensioni"
   spree:
-    approve: Approve
-    approved_reviews: Approved
+    approve: Approva
+    approved_reviews: Approvata
     average_customer_rating: Voto medio
-    back_reviews: Back to the reviews
+    back_reviews: Vai alle recensioni
     based_upon_review_count:
       one: basato su una recensione
       other: "basato su %{count} recensioni"
-    by: by
+    by: di
     editing_review_for_html: 'Editing review for %{link}'
-    error_approve_review: Error approving review
+    error_approve_review: Errore durante l'approvazione della recensione
     error_no_product: The reviewed product doesn't exist anymore
     feedback: Feedback
-    feedback_review_for: "Review: '%{review}'"
-    for: for
-    from: from
-    info_approve_review: Review approved
-    leave_us_a_review_for: "Please leave us a review and a rating for our '%{name}'"
+    feedback_review_for: "Recensione: '%{review}'"
+    for: per
+    from: da
+    info_approve_review: Recensione approvata
+    leave_us_a_review_for: "Lasciaci una recensione per il nostro prodotto: '%{name}'"
     no_reviews_available: "Nessuna recensione e' stata scritta per questo prodotto."
     out_of_5: "out of 5"
-    rating: rating
-    reviews: Reviews
+    rating: voto
+    reviews: Recensioni
     admin:
       tab:
-        review_management: Reviews
-    review_successfully_submitted: Review was successfully submitted
+        review_management: Recensioni
+    review_successfully_submitted: Recensione inviata con successo
     spree_reviews:
       feedback_rating: Rate feedback
       include_unapproved: Include unapproved reviews in listings
@@ -52,14 +52,14 @@ it:
     star:
       one: "1"
       other: "%{count}"
-    stars: Stars
-    submit_your_review: Submit your review
-    submitted_on: Submitted on
-    unapproved_reviews: Unapproved
+    stars: Stelle
+    submit_your_review: Invia la tua recensione
+    submitted_on: Scritta il
+    unapproved_reviews: Non approvata
     voice:
-      one: "1 voice"
-      other: "%{count} voices"
-    was_this_review_helpful: "Was this review helpful to you?"
+      one: "1 voce"
+      other: "%{count} voci"
+    was_this_review_helpful: "Questa recensione ti è stata utile?"
     write_your_own_review: Scrivi la tua recensione
-    you_must_enter_value_for_rating: "You must enter a value for rating."
-    anonymous: Anonymous
+    you_must_enter_value_for_rating: "Devi inserire un valore valido per la valutazione."
+    anonymous: Anonimo
